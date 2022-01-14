@@ -13,6 +13,8 @@ int main( int argc, char* argv[] )
     string dud;
     ifstream instream;
 
+    std::cout << "program: " << argv[0] << '\n';
+
     for (int arg = 1; arg < argc; ++arg) //loop each input file
     {
       int numLines = -1;
