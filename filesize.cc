@@ -30,7 +30,7 @@ int main( int argc, char* argv[] )
       }
 
       instream.close();
-      std::cout << argv[arg] << ": " << numLines << '\n';
+      std::cout << " " << argv[arg] << ": " << numLines << '\n';
 
     }
 
